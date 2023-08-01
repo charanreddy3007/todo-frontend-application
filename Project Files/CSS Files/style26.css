@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategrey;
+    min-height: 100vh
+}
+
+.card {
+    height: auto;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px 0
+}
+
+textarea {
+    margin-top: 10px;
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    outline: 0;
+    resize: none;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0
+}
+
+button {
+    height: 45px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px
+}
+
+button:hover {
+    background-color: blue
+}
+
+.mainList {
+    list-style: none
+}
+
+.list_item {
+    margin-top: 15px
+}
+
+.main_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.checked_div {
+    display: flex;
+    gap: 10px;
+    align-items: center
+}
+
+.main_div span {
+    height: 32px;
+    width: 32px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s
+}
+
+.main_div span:nth-child(1):hover {
+    border: 1px solid blue
+}
+
+.main_div span:nth-child(2):hover {
+    background-color: red
+}
+
+i {
+    font-size: 18px
+}
+
+.fa-check,
+.fa-xmark {
+    color: #fff;
+    margin-top: 1px
+}
+
+strike {
+    font-size: 15px;
+    font-weight: 600;
+    max-width: 240px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.strike_none {
+    text-decoration: none
+}
+
+hr {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid pink
+}
+
+.blue {
+    background-color: blue
+}
