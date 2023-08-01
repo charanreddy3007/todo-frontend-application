@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <script src="https://kit.fontawesome.com/b3b37c52ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style26.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>To-do List</h2> <textarea class="text_area" placeholder="Enter your tasks here"></textarea>
+        <div class="btn"> <button class="add_task">Add Task<i class="fa-solid fa-plus"></i></button> </div>
+        <ul class="mainList">
+            <li class="list_item" id="1">
+                <div class="main_div">
+                    <div class="checked_div"> <span id="check1" onclick="checked(1)"><i class="fa-solid fa-check"></i></span> <strike id="strike1" class="strike_none">The Day Was Fine.</strike> </div> <span id="deletes1" onclick="deleted(1)"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <hr>
+            </li>
+        </ul>
+    </div>
+    <script src="javascript26.js"></script>
+</body>
+
+</html>
